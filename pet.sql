@@ -20,7 +20,7 @@ INSERT INTO pet VALUES
 ('Whistler','Gwen','bird',NULL,'1997-12-09',NULL),
 ('Slim','Benny','snake','m','1996-04-29',NULL);
 
--- a) Poistot, päivitykset ja lisäykset
+-- Poistot, päivitykset ja lisäykset
 DELETE FROM pet WHERE name = 'Puffball';
 UPDATE pet SET birth = '1998-08-31' WHERE name = 'Bowser';
 UPDATE pet SET death = '2000-09-15' WHERE name = 'Chirpy';
